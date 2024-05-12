@@ -5,3 +5,5 @@
 We are a team dedicated to improving the lives of rural communities in India. Our mission is to provide accessible and essential information through innovative solutions like the SMS information bot.
 
 It includes features such as: 1.Real-time weather updates, 2.Information on government policies, 3.Live cricket scores, 4.Seasonal advice for poultry feeding, 5.Connection to emergency government services, 6.Live Crop Prices, 7.Crop Insurance Scheme, 8.Emergency Call back and, 9.Crop Sale Mela Dates.
+
+\website link- https://gramitraa.vercel.app/
