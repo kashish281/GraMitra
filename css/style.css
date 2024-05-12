@@ -1,0 +1,185 @@
+/* Style for the "About Us" section heading */
+h2.about-Us-heading {
+    font-size: 24px;
+    color: #0c0c0c;
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+/* Style for the paragraphs in the "About Us" section */
+.about-Us-content {
+    font-size: 16px;
+    color: #189b46;
+    line-height: 1.5; /* Increase line height for readability */
+    margin-bottom: 20px; /* Add space below each paragraph */
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1px 0;
+    z-index: 1000; 
+}
+.navbar .navbar-brand img {
+    height: 4rem;
+    width: auto;
+}
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+  
+}
+.navbar .navbar-collapse .navbar-nav li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+.overlay {
+    position: sticky;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+.home-page-content {
+   padding-top: 12%;
+}
+
+.home-page-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 1px #504f4f;
+   
+}
+.home-supporting-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 1px #333333;
+}
+.homepage-btn-1 {
+    background: #0bd204;
+    color: white;
+    margin-left: 4px;
+    font-size: x-large;
+    border-radius: .4rem;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+   
+}
+.homepage-btn-1:hover {
+    background: #02990f;
+    color: white;
+}
+/* /Home page end */
+
+/* TEAM Section */
+
+.team-title {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #0e0a0a;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: initial;
+    position: relative;
+    margin: 30px 0 60px;
+}
+.team-row .card-deck .card {
+    width: 280px;
+    height: 480px;
+    border: hidden;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.team-row .card-deck .card .img-box {
+    width: 260px;
+    height: 260px;
+    align-self: center;
+    overflow: hidden;
+}
+.team-row .card-deck .card img {
+    width: 260px;
+    height: auto;
+    margin-top: 2px;
+    align-self: center;
+
+}
+.team-row .card-deck .card-body .card-title {
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: initial;
+    position: relative;
+}
+.team-row .card-deck .card-body .card-subtitle {
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: initial;
+    position: relative;
+}
+.team-row .card-deck .card-body .card-text p {
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: initial;
+    position: relative;
+}
+.team-row .card-deck .card-body .teams-socials {
+    font-size: 20px;
+    color: #262626;
+    cursor: pointer;
+}
+
+/* /TEAM Section */
+
+/* Small screens */
+@media (max-width: 576px) {
+    /* HOME section */
+    .home-page-content {
+        padding-top: 10rem;
+    }
+    .home-page-text {
+        font-size: 1.6rem;
+    }
+    .home-buttons .homepage-btn-1, .homepage-btn-2 {
+     font-size: 1rem;
+    }
+    /* Home section */
+
+    /* Store section */
+    .store-row-2 .col-sm-3, .store-row-3 .col-sm-3 {
+        padding-bottom: 10px;
+      }
+    /* /Store section */
+
+    /* TEAM section */
+    .team-row .card-deck .card {
+        width: 400px;
+        height: inherit;
+   }
+   .team-row .card-deck .card .img-box {
+       width: 380px;
+       height: 380px;
+   }
+   .team-row .card-deck .card img {
+       width: 360px;
+       height: auto;
+   
+   }
+   /* /TEAM Section */

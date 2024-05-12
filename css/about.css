@@ -1,0 +1,57 @@
+.about-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-section h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+/* Define the styles for the element */
+.about-section {
+    color: rgb(33, 33, 36);
+    transition: color 0.3s; /* Add transition for smooth effect */
+}
+
+/* Define the hover effect */
+.about-section:hover {
+    color: rgb(78, 45, 197);
+}
+.about-section {
+
+    color: rgb(9, 9, 14);
+    background-color: rgba(189, 189, 205, 0.3); /* Initial background color with some opacity */
+    transition: color 0.3s, background-color 0.3s; /* Add transition for smooth color change */
+    padding: 30px; /* Adding some padding for better visualization */
+}
+
+
+
+/* Optional: Add more styles as needed */
